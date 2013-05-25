@@ -1,0 +1,87 @@
+Read Me:
+
+This is an explaination of what each of the classes in this application do and how they fit together.
+
+Portable Wine Journal: This app is designed to allow the user to store their personal notes on a wine tasting and view them at a later time.
+
+I. Structure and Goal of the Portable Wine Journal
+II. Classes
+III. Planned Additional Features
+
+I. Structure and Goal of the Portable Wine Journal Program:
+The first view contains two options: Create a new wine tasting or view your notes on a previous wine tasting. Choosing the "Create New Tasting" option will
+navigate the user to the "New Tasting View Controller". This class will prompt the user for the name of the winery or the business their tasting is occurrring
+at. When the user clicks the "Create New Tasting" button, the app will not only record the name of the business, but the date.
+
+The next view to load will be the view "Wine List View Controller". This is a list of wines tasted. Since the tasting was just created, there will be no wines. 
+At the top is a navigation controller thatallows the user to either go back to change the information about the tasting or add wines to their tasting.
+
+When the user taps the plus button on the right-hand side, the Wine Information View Controller appears. This view is a form that contains the parameters of a 
+wine that a user might find useful to remember later. This view also has a navigation controller with the option to either discard the tasting or save it. When 
+the save button is tapped, the information contained in the text fields is inserted into a Wine Information object and added to the array of wine objects,
+including the inheirited values of the Winery/Business name and date from the New Tasting view controller.
+
+This can be done as many times as necessary.
+
+If the user chooses to look at previous tastings, the "Tasting List View Controller" will load. This will include a list of all the tastings the user previously
+created. It will display the date and the location the tasting occurred. 
+
+When the user chooses a tasting from the table view, the program will search for all the wines that have the same business name and date. These will load into 
+the "Wine List View Controller". When the user selects a wine, the "List of Wine Attributes View Controller" will load with all the previously saved wine info
+inputed by the user.
+
+These are all wired together using a navigation view controller. If the user needs to go back to change something, this is always an option.
+
+
+
+II. Classes:
+
+Singletons-
+WineTastingStore- This is the only singleton in this program. This class controls the flow of information. It contains arrays of the objects and instances of 
+the objects so that these can be set and accessed by other parts of the program. This is the Model aspect of the Model-View-Controller.
+
+Objects:
+NewTasting- This class contains the attributes associated with a tasting, which are the location and the date. This information is used to sort the wines and
+for display purposes.
+
+WineInformation- This class contains all other attributes created by the user to describe each individual wine. This also inherits the information from the
+NewTasting class so that it can be sorted into the right lists.
+
+List View Controllers:
+TastingListViewController- This class lists all previously created tastings. This view is loaded from the root view controller when a user taps the "View
+Previous Tasting Records" button. 
+
+ExistingListViewController- This class displays all of the wines associated with the tasting selected in TastingListViewController. This view is accessed
+when a row is selected from TastingListViewController. It is populated by all wines that have the same business name and creation date as the row in the
+TastingListViewController. The attributes in this list are not editable since they are the thoughts the user recorded at the time they tasted the wine.
+
+WineListViewController- This class shows the current wines associated with a particular tasting. This list is accessed when a new tasting is created in the
+NewTastingViewController class. This is the only place where a new wine can be added to a tasting. After a user navigates away from the current tasting it 
+can't be altered. This class has the option to navigate back to the NewTastingViewController or to create a new wine object.
+
+Non-List View Controllers:
+NewTastingViewController- This is the view that loads from the root when you click on the "Create New Tasting" button. After you enter the name of the winery
+or business you are visiting you click the "Create Tasting" button which instantiates an instance of the the NewTasting class with your entered information
+and the date. It then loads the WineListViewController.
+
+WineInformationViewController- This is a form that collects all of the information about a particular wine. It has nine fields that can be filled out by the 
+user. The user then has the option to save this information or navigate back to the wine list.
+
+ListOfWineAttributesViewController- This view displays the information saved back in the WineInformationViewController. This view is accessed by the 
+ExistingListViewController when the user selects a wine from the list to look at in more detail. This view is just a label with output, it is not editable.
+
+
+III. Planned Additional Features
+
+a. Map- The next iteration of this app will add a tab view controller across the bottom. One of the tabs will load a map view that will alternately show all of
+the areas of the world where the wine the user has tasted have come from. The user will be able to alternate between that and seeing all of the locations that
+they have recorded that they drank wine at.
+
+b. Photos- This feature will allow the user to take a photo of their wine and store it along with the information they are storing for each wine tasting.
+
+c. Glossary- The last tab will include a glossary of wine terminology and information. Some examples of information included in this are types of grapes, wine
+regions, and explainations about what terms like terroir mean.
+
+d. Social Network- A long-term goal I have is to allow users to look at one another's reviews of different wines. You would be able to post your reviews
+and see what other people thought of the wine that you are drinking.
+

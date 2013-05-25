@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792A5DF81732ACF00067C206 /* ListOfWineAttributesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A5DF61732ACEF0067C206 /* ListOfWineAttributesViewController.m */; };
+		792A5DF91732ACF00067C206 /* ListOfWineAttributesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792A5DF71732ACF00067C206 /* ListOfWineAttributesViewController.xib */; };
+		795A61D5172AC5B300BDAB13 /* NewTastingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61D3172AC5B300BDAB13 /* NewTastingViewController.m */; };
+		795A61D6172AC5B300BDAB13 /* NewTastingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795A61D4172AC5B300BDAB13 /* NewTastingViewController.xib */; };
+		795A61DA172AC98200BDAB13 /* WineInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61D8172AC98200BDAB13 /* WineInformationViewController.m */; };
+		795A61DB172AC98200BDAB13 /* WineInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795A61D9172AC98200BDAB13 /* WineInformationViewController.xib */; };
+		795A61EA172C366900BDAB13 /* NewTasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61E9172C366900BDAB13 /* NewTasting.m */; };
+		795A61ED172C368000BDAB13 /* WineInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61EC172C368000BDAB13 /* WineInformation.m */; };
+		795A61F6172D868C00BDAB13 /* TastingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61F5172D868C00BDAB13 /* TastingListViewController.m */; };
+		795A61F9172D9A9100BDAB13 /* WineTastingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61F8172D9A9100BDAB13 /* WineTastingStore.m */; };
+		795A61FC172DA70B00BDAB13 /* WineListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61FB172DA70B00BDAB13 /* WineListViewController.m */; };
+		795A61FF172ED94E00BDAB13 /* ExistingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795A61FE172ED94E00BDAB13 /* ExistingListViewController.m */; };
+		795A6207172F139400BDAB13 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A6205172F139400BDAB13 /* background.png */; };
+		795A6208172F139400BDAB13 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A6206172F139400BDAB13 /* background@2x.png */; };
+		795A620E1731E29200BDAB13 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 795A620D1731E29200BDAB13 /* ReadMe */; };
+		795A621017329D2700BDAB13 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A620F17329D2700BDAB13 /* Default-Landscape~ipad.png */; };
+		795A621217329D2B00BDAB13 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A621117329D2B00BDAB13 /* Default-Landscape@2x~ipad.png */; };
+		795A621417329D2F00BDAB13 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A621317329D2F00BDAB13 /* Default-Portrait~ipad.png */; };
+		795A621617329D3300BDAB13 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 795A621517329D3300BDAB13 /* Default-Portrait@2x~ipad.png */; };
+		79F38755172ABBC500EB7518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F38754172ABBC500EB7518 /* UIKit.framework */; };
+		79F38757172ABBC500EB7518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F38756172ABBC500EB7518 /* Foundation.framework */; };
+		79F38759172ABBC500EB7518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F38758172ABBC500EB7518 /* CoreGraphics.framework */; };
+		79F3875F172ABBC500EB7518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79F3875D172ABBC500EB7518 /* InfoPlist.strings */; };
+		79F38761172ABBC500EB7518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38760172ABBC500EB7518 /* main.m */; };
+		79F38765172ABBC500EB7518 /* pickNewOrExistingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38764172ABBC500EB7518 /* pickNewOrExistingAppDelegate.m */; };
+		79F38767172ABBC500EB7518 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F38766172ABBC500EB7518 /* Default.png */; };
+		79F38769172ABBC500EB7518 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F38768172ABBC500EB7518 /* Default@2x.png */; };
+		79F3876B172ABBC500EB7518 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3876A172ABBC500EB7518 /* Default-568h@2x.png */; };
+		79F3876E172ABBC500EB7518 /* pickNewOrExistingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3876D172ABBC500EB7518 /* pickNewOrExistingViewController.m */; };
+		79F38771172ABBC500EB7518 /* pickNewOrExistingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F3876F172ABBC500EB7518 /* pickNewOrExistingViewController.xib */; };
+		79F38780172ABDFA00EB7518 /* wine-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F3877F172ABDFA00EB7518 /* wine-glass.png */; };
+		79F38782172ABDFF00EB7518 /* wine-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F38781172ABDFF00EB7518 /* wine-glass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792A5DF51732ACEF0067C206 /* ListOfWineAttributesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfWineAttributesViewController.h; sourceTree = "<group>"; };
+		792A5DF61732ACEF0067C206 /* ListOfWineAttributesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfWineAttributesViewController.m; sourceTree = "<group>"; };
+		792A5DF71732ACF00067C206 /* ListOfWineAttributesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListOfWineAttributesViewController.xib; sourceTree = "<group>"; };
+		795A61D2172AC5B300BDAB13 /* NewTastingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTastingViewController.h; sourceTree = "<group>"; };
+		795A61D3172AC5B300BDAB13 /* NewTastingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTastingViewController.m; sourceTree = "<group>"; };
+		795A61D4172AC5B300BDAB13 /* NewTastingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTastingViewController.xib; sourceTree = "<group>"; };
+		795A61D7172AC98200BDAB13 /* WineInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineInformationViewController.h; sourceTree = "<group>"; };
+		795A61D8172AC98200BDAB13 /* WineInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineInformationViewController.m; sourceTree = "<group>"; };
+		795A61D9172AC98200BDAB13 /* WineInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WineInformationViewController.xib; sourceTree = "<group>"; };
+		795A61E8172C366900BDAB13 /* NewTasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTasting.h; sourceTree = "<group>"; };
+		795A61E9172C366900BDAB13 /* NewTasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTasting.m; sourceTree = "<group>"; };
+		795A61EB172C368000BDAB13 /* WineInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineInformation.h; sourceTree = "<group>"; };
+		795A61EC172C368000BDAB13 /* WineInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineInformation.m; sourceTree = "<group>"; };
+		795A61F4172D868C00BDAB13 /* TastingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TastingListViewController.h; sourceTree = "<group>"; };
+		795A61F5172D868C00BDAB13 /* TastingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TastingListViewController.m; sourceTree = "<group>"; };
+		795A61F7172D9A9100BDAB13 /* WineTastingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineTastingStore.h; sourceTree = "<group>"; };
+		795A61F8172D9A9100BDAB13 /* WineTastingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineTastingStore.m; sourceTree = "<group>"; };
+		795A61FA172DA70A00BDAB13 /* WineListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineListViewController.h; sourceTree = "<group>"; };
+		795A61FB172DA70B00BDAB13 /* WineListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineListViewController.m; sourceTree = "<group>"; };
+		795A61FD172ED94E00BDAB13 /* ExistingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExistingListViewController.h; sourceTree = "<group>"; };
+		795A61FE172ED94E00BDAB13 /* ExistingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExistingListViewController.m; sourceTree = "<group>"; };
+		795A6205172F139400BDAB13 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		795A6206172F139400BDAB13 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		795A620D1731E29200BDAB13 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		795A620F17329D2700BDAB13 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		795A621117329D2B00BDAB13 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		795A621317329D2F00BDAB13 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		795A621517329D3300BDAB13 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		79F38751172ABBC500EB7518 /* Portable Wine Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portable Wine Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F38754172ABBC500EB7518 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79F38756172ABBC500EB7518 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79F38758172ABBC500EB7518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79F3875C172ABBC500EB7518 /* Portable Wine Journal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Portable Wine Journal-Info.plist"; sourceTree = "<group>"; };
+		79F3875E172ABBC500EB7518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79F38760172ABBC500EB7518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F38762172ABBC500EB7518 /* Portable Wine Journal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Portable Wine Journal-Prefix.pch"; sourceTree = "<group>"; };
+		79F38763172ABBC500EB7518 /* pickNewOrExistingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickNewOrExistingAppDelegate.h; sourceTree = "<group>"; };
+		79F38764172ABBC500EB7518 /* pickNewOrExistingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickNewOrExistingAppDelegate.m; sourceTree = "<group>"; };
+		79F38766172ABBC500EB7518 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		79F38768172ABBC500EB7518 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		79F3876A172ABBC500EB7518 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79F3876C172ABBC500EB7518 /* pickNewOrExistingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickNewOrExistingViewController.h; sourceTree = "<group>"; };
+		79F3876D172ABBC500EB7518 /* pickNewOrExistingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickNewOrExistingViewController.m; sourceTree = "<group>"; };
+		79F38770172ABBC500EB7518 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/pickNewOrExistingViewController.xib; sourceTree = "<group>"; };
+		79F3877F172ABDFA00EB7518 /* wine-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine-glass.png"; sourceTree = "<group>"; };
+		79F38781172ABDFF00EB7518 /* wine-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine-glass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F3874E172ABBC500EB7518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F38755172ABBC500EB7518 /* UIKit.framework in Frameworks */,
+				79F38757172ABBC500EB7518 /* Foundation.framework in Frameworks */,
+				79F38759172ABBC500EB7518 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		795A62091731888F00BDAB13 /* nibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				792A5DF71732ACF00067C206 /* ListOfWineAttributesViewController.xib */,
+				795A61D9172AC98200BDAB13 /* WineInformationViewController.xib */,
+				795A61D4172AC5B300BDAB13 /* NewTastingViewController.xib */,
+				79F3876F172ABBC500EB7518 /* pickNewOrExistingViewController.xib */,
+			);
+			name = nibFiles;
+			sourceTree = "<group>";
+		};
+		795A620A1731891400BDAB13 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				795A61E8172C366900BDAB13 /* NewTasting.h */,
+				795A61E9172C366900BDAB13 /* NewTasting.m */,
+				795A61EB172C368000BDAB13 /* WineInformation.h */,
+				795A61EC172C368000BDAB13 /* WineInformation.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		795A620B1731893200BDAB13 /* ListViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				795A61F4172D868C00BDAB13 /* TastingListViewController.h */,
+				795A61F5172D868C00BDAB13 /* TastingListViewController.m */,
+				795A61FD172ED94E00BDAB13 /* ExistingListViewController.h */,
+				795A61FE172ED94E00BDAB13 /* ExistingListViewController.m */,
+				795A61FA172DA70A00BDAB13 /* WineListViewController.h */,
+				795A61FB172DA70B00BDAB13 /* WineListViewController.m */,
+			);
+			name = ListViewControllers;
+			sourceTree = "<group>";
+		};
+		795A620C1731897000BDAB13 /* NonListViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				795A61D2172AC5B300BDAB13 /* NewTastingViewController.h */,
+				795A61D3172AC5B300BDAB13 /* NewTastingViewController.m */,
+				795A61D7172AC98200BDAB13 /* WineInformationViewController.h */,
+				795A61D8172AC98200BDAB13 /* WineInformationViewController.m */,
+				792A5DF51732ACEF0067C206 /* ListOfWineAttributesViewController.h */,
+				792A5DF61732ACEF0067C206 /* ListOfWineAttributesViewController.m */,
+			);
+			name = NonListViewControllers;
+			sourceTree = "<group>";
+		};
+		79F38748172ABBC500EB7518 = {
+			isa = PBXGroup;
+			children = (
+				795A621517329D3300BDAB13 /* Default-Portrait@2x~ipad.png */,
+				795A621317329D2F00BDAB13 /* Default-Portrait~ipad.png */,
+				795A621117329D2B00BDAB13 /* Default-Landscape@2x~ipad.png */,
+				795A620F17329D2700BDAB13 /* Default-Landscape~ipad.png */,
+				79F38781172ABDFF00EB7518 /* wine-glass@2x.png */,
+				79F3877F172ABDFA00EB7518 /* wine-glass.png */,
+				79F3875A172ABBC500EB7518 /* Portable Wine Journal */,
+				79F38753172ABBC500EB7518 /* Frameworks */,
+				79F38752172ABBC500EB7518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79F38752172ABBC500EB7518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79F38751172ABBC500EB7518 /* Portable Wine Journal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79F38753172ABBC500EB7518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F38754172ABBC500EB7518 /* UIKit.framework */,
+				79F38756172ABBC500EB7518 /* Foundation.framework */,
+				79F38758172ABBC500EB7518 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F3875A172ABBC500EB7518 /* Portable Wine Journal */ = {
+			isa = PBXGroup;
+			children = (
+				79F38763172ABBC500EB7518 /* pickNewOrExistingAppDelegate.h */,
+				79F38764172ABBC500EB7518 /* pickNewOrExistingAppDelegate.m */,
+				79F3876C172ABBC500EB7518 /* pickNewOrExistingViewController.h */,
+				79F3876D172ABBC500EB7518 /* pickNewOrExistingViewController.m */,
+				795A61F7172D9A9100BDAB13 /* WineTastingStore.h */,
+				795A61F8172D9A9100BDAB13 /* WineTastingStore.m */,
+				795A620D1731E29200BDAB13 /* ReadMe */,
+				795A620A1731891400BDAB13 /* Objects */,
+				795A620B1731893200BDAB13 /* ListViewControllers */,
+				795A620C1731897000BDAB13 /* NonListViewControllers */,
+				795A62091731888F00BDAB13 /* nibFiles */,
+				79F3875B172ABBC500EB7518 /* Supporting Files */,
+			);
+			path = "Portable Wine Journal";
+			sourceTree = "<group>";
+		};
+		79F3875B172ABBC500EB7518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F3875C172ABBC500EB7518 /* Portable Wine Journal-Info.plist */,
+				79F3875D172ABBC500EB7518 /* InfoPlist.strings */,
+				795A6205172F139400BDAB13 /* background.png */,
+				795A6206172F139400BDAB13 /* background@2x.png */,
+				79F38760172ABBC500EB7518 /* main.m */,
+				79F38762172ABBC500EB7518 /* Portable Wine Journal-Prefix.pch */,
+				79F38766172ABBC500EB7518 /* Default.png */,
+				79F38768172ABBC500EB7518 /* Default@2x.png */,
+				79F3876A172ABBC500EB7518 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79F38750172ABBC500EB7518 /* Portable Wine Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F38774172ABBC500EB7518 /* Build configuration list for PBXNativeTarget "Portable Wine Journal" */;
+			buildPhases = (
+				79F3874D172ABBC500EB7518 /* Sources */,
+				79F3874E172ABBC500EB7518 /* Frameworks */,
+				79F3874F172ABBC500EB7518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Portable Wine Journal";
+			productName = "Portable Wine Journal";
+			productReference = 79F38751172ABBC500EB7518 /* Portable Wine Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79F38749172ABBC500EB7518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = pickNewOrExisting;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Janie Clayton-Hasz";
+			};
+			buildConfigurationList = 79F3874C172ABBC500EB7518 /* Build configuration list for PBXProject "Portable Wine Journal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79F38748172ABBC500EB7518;
+			productRefGroup = 79F38752172ABBC500EB7518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F38750172ABBC500EB7518 /* Portable Wine Journal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79F3874F172ABBC500EB7518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F3875F172ABBC500EB7518 /* InfoPlist.strings in Resources */,
+				79F38767172ABBC500EB7518 /* Default.png in Resources */,
+				79F38769172ABBC500EB7518 /* Default@2x.png in Resources */,
+				79F3876B172ABBC500EB7518 /* Default-568h@2x.png in Resources */,
+				79F38771172ABBC500EB7518 /* pickNewOrExistingViewController.xib in Resources */,
+				79F38780172ABDFA00EB7518 /* wine-glass.png in Resources */,
+				79F38782172ABDFF00EB7518 /* wine-glass@2x.png in Resources */,
+				795A61D6172AC5B300BDAB13 /* NewTastingViewController.xib in Resources */,
+				795A61DB172AC98200BDAB13 /* WineInformationViewController.xib in Resources */,
+				795A6207172F139400BDAB13 /* background.png in Resources */,
+				795A6208172F139400BDAB13 /* background@2x.png in Resources */,
+				795A620E1731E29200BDAB13 /* ReadMe in Resources */,
+				795A621017329D2700BDAB13 /* Default-Landscape~ipad.png in Resources */,
+				795A621217329D2B00BDAB13 /* Default-Landscape@2x~ipad.png in Resources */,
+				795A621417329D2F00BDAB13 /* Default-Portrait~ipad.png in Resources */,
+				795A621617329D3300BDAB13 /* Default-Portrait@2x~ipad.png in Resources */,
+				792A5DF91732ACF00067C206 /* ListOfWineAttributesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79F3874D172ABBC500EB7518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F38761172ABBC500EB7518 /* main.m in Sources */,
+				79F38765172ABBC500EB7518 /* pickNewOrExistingAppDelegate.m in Sources */,
+				79F3876E172ABBC500EB7518 /* pickNewOrExistingViewController.m in Sources */,
+				795A61D5172AC5B300BDAB13 /* NewTastingViewController.m in Sources */,
+				795A61DA172AC98200BDAB13 /* WineInformationViewController.m in Sources */,
+				795A61EA172C366900BDAB13 /* NewTasting.m in Sources */,
+				795A61ED172C368000BDAB13 /* WineInformation.m in Sources */,
+				795A61F6172D868C00BDAB13 /* TastingListViewController.m in Sources */,
+				795A61F9172D9A9100BDAB13 /* WineTastingStore.m in Sources */,
+				795A61FC172DA70B00BDAB13 /* WineListViewController.m in Sources */,
+				795A61FF172ED94E00BDAB13 /* ExistingListViewController.m in Sources */,
+				792A5DF81732ACF00067C206 /* ListOfWineAttributesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79F3875D172ABBC500EB7518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F3875E172ABBC500EB7518 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79F3876F172ABBC500EB7518 /* pickNewOrExistingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79F38770172ABBC500EB7518 /* en */,
+			);
+			name = pickNewOrExistingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79F38772172ABBC500EB7518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		79F38773172ABBC500EB7518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79F38775172ABBC500EB7518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portable Wine Journal/Portable Wine Journal-Prefix.pch";
+				INFOPLIST_FILE = "Portable Wine Journal/Portable Wine Journal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79F38776172ABBC500EB7518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portable Wine Journal/Portable Wine Journal-Prefix.pch";
+				INFOPLIST_FILE = "Portable Wine Journal/Portable Wine Journal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79F3874C172ABBC500EB7518 /* Build configuration list for PBXProject "Portable Wine Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F38772172ABBC500EB7518 /* Debug */,
+				79F38773172ABBC500EB7518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F38774172ABBC500EB7518 /* Build configuration list for PBXNativeTarget "Portable Wine Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F38775172ABBC500EB7518 /* Debug */,
+				79F38776172ABBC500EB7518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79F38749172ABBC500EB7518 /* Project object */;
+}
